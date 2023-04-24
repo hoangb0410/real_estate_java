@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.thu.housenet">
+    package="de.thu.realestate">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,15 +10,15 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.HouseNet">
+        android:theme="@style/Theme.RealEstate">
         <activity
-            android:name=".activities.PropertiesSavedActivity"
+            android:name="de.thu.realestate.activities.PropertiesSavedActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.PropertyDetailActivity"
+            android:name="de.thu.realestate.activities.PropertyDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name="de.thu.realestate.activities.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
